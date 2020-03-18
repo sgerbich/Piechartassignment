@@ -1,0 +1,46 @@
+.pie {
+  position: relative;
+  margin-top: 15%;
+  margin-left: 37%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+ .slice_r {
+    
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  background: red;
+  border-radius: 150px 0 0 0;
+}
+.slice_y {
+    margin-left:148px;
+    margin-top:-152px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  background: yellow;
+  border-radius: 0 150px 0 0;
+}
+.slice_g {
+    margin-left:148px;
+    margin-top:0px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  background: green;
+  border-radius: 0 0 150px 0;
+}
+/* .pie {
+    margin: 0;
+    position: absolute;            
+    top: 50%;
+    left: 50%;
+    border-width: 300px;
+    border-style: dotted;
+    border-color: yellow green blue red;
+    border-radius: 50%;
+    transform: rotate(45deg);
+} */
